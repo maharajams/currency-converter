@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Cascadia Code';
+	background-color: #2f2f2f;
+	color: white;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo{
+	width: 200px;
+	margin: 50px;
+}
+
+h1{
+	font-size: 3rem;
+	color: #5fbaa7;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 1.4rem;
+	margin-bottom: 50px;
+}
+
+
+select{
+	font-size: 1.5rem;
+	padding: 3px 0;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+input{
+	font-size: 1.5rem;
+	padding: 3px 0;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	text-align: right;
+}
+
+.btn{
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 20%;
+	border: none;
+	outline: none;
+	background-color: #5fbaa7 ;
+	cursor: pointer;
+	color: white;
+}
+.btn:hover{
+	opacity: 0.9;
+}
+
+.swap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.rate{
+	font-size: 1.4rem;
+	color: #5fbaa7;
+}
